@@ -1,0 +1,12 @@
+create database blogTestDB charset=utf8;
+ALTER user 'root'@'localhost' IDENTIFIED BY '123456'; 
+flush privileges;
+python manage.py startapp users
+INSTALLED_APPS =>  'users.apps.UsersConfig',
+Templates=> os.path.join
+path('register/',RegisterView.as_view(),name='register'),
+path('', include(('users.urls', 'users'), namespace='users')),
+USERNAME_FIELD = 'mobile'
+REQUIRED_FIELDS = ['username','email']
+https://developer.aliyun.com/article/626212?spm=5176.21213303.J_6704733920.31.24ff53c9hcup3V&scm=20140722.S_community%40%40%E6%96%87%E7%AB%A0%40%40626212._.ID_community%40%40%E6%96%87%E7%AB%A0%40%40626212-RL_centos7%20%E9%83%A8%E7%BD%B2django-LOC_main-OR_ser-V_2-RK_rerank-P0_6
+https://developer.aliyun.com/article/1153952?spm=a2c6h.12873639.article-detail.27.162f6e8exmGEnW&scm=20140722.ID_community@@article@@1153952._.ID_community@@article@@1153952-OR_rec-V_1-RL_community@@article@@932960
