@@ -16,8 +16,8 @@ class LoadBalancersInfo:
         self.ServerProtocal = ""
 
 
-access_key_id = 'LTAI5tCFuU28f8s11uLbgEpp'
-access_key_secret = 'sR9f4e44dYIZOblaVaovPa3Rw0d70J'
+access_key_id = ''
+access_key_secret = ''
 region_id = 'cn-hangzhou'
 
 myLoadBalancers = LoadBalancers()
